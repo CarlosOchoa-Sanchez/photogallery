@@ -1,0 +1,63 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #000000;
+    width: 1300px;
+    margin: 0 auto;
+    
+}
+
+main {
+    background-color: #ffffff;
+    
+}
+
+h1 {
+    color:#007d7b;
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+    
+}
+nav ul li {
+    margin-left: 10px;
+    padding: 0;
+    list-style: none;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+[href="#top"] {
+    position:fixed;
+    bottom:0px;
+    right:20px;
+    color: red;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: none;
+}
+
+.About, .Gallery {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
